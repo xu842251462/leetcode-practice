@@ -1,0 +1,10 @@
+2019-10-13 01:45:34.215  WARN 87306 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=7h50m15s525ms).
+2019-10-13 01:46:03.650  WARN 87306 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Retrograde clock change detected (housekeeper delta=29s435ms), soft-evicting connections from pool.
+2019-10-13 10:09:48.714  WARN 87306 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=8h23m45s63ms).
+2019-10-13 10:10:17.406  WARN 87306 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Retrograde clock change detected (housekeeper delta=28s691ms), soft-evicting connections from pool.
+2019-10-13 14:26:48.940  WARN 87306 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h46m589ms).
+2019-10-13 14:36:42.002  INFO 87306 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-10-13 14:36:42.006  INFO 87306 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-10-13 14:36:42.097  INFO 87306 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 91 ms
+2019-10-13 23:40:43.768  WARN 87306 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=5h22m24s115ms).
+2019-10-13 23:41:12.600  WARN 87306 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Retrograde clock change detected (housekeeper delta=28s838ms), soft-evicting connections from pool.

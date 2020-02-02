@@ -1,0 +1,60 @@
+2019-11-10 17:25:54.201  INFO 41357 --- [main] com.sincere.Demo.ApplicationTests        : Starting ApplicationTests on MacBook-Pro-3399.local with PID 41357 (started by binxu in /Users/binxu/Downloads/06Demo)
+2019-11-10 17:25:54.208  INFO 41357 --- [main] com.sincere.Demo.ApplicationTests        : The following profiles are active: dev
+2019-11-10 17:25:54.256  INFO 41357 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2b46a8c1: startup date [Sun Nov 10 17:25:54 EST 2019]; root of context hierarchy
+2019-11-10 17:25:55.691  INFO 41357 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e9a15dc3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-10 17:25:55.920  INFO 41357 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-11-10 17:25:56.243  INFO 41357 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-11-10 17:25:56.297  INFO 41357 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-11-10 17:25:56.322  INFO 41357 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-10 17:25:56.437  INFO 41357 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2019-11-10 17:25:56.439  INFO 41357 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-11-10 17:25:56.494  INFO 41357 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-11-10 17:25:56.643  INFO 41357 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-10 17:25:57.206  INFO 41357 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-10 17:25:57.579  INFO 41357 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-10 17:25:57.876  INFO 41357 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2b46a8c1: startup date [Sun Nov 10 17:25:54 EST 2019]; root of context hierarchy
+2019-11-10 17:25:57.942  WARN 41357 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-10 17:25:57.994  INFO 41357 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.sincere.Demo.controller.UserController.login(javax.servlet.http.HttpServletRequest)
+2019-11-10 17:25:57.995  INFO 41357 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/signup],methods=[POST]}" onto public java.lang.String com.sincere.Demo.controller.UserController.signup(javax.servlet.http.HttpServletRequest)
+2019-11-10 17:25:57.999  INFO 41357 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-11-10 17:25:58.000  INFO 41357 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-11-10 17:25:58.028  INFO 41357 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-10 17:25:58.029  INFO 41357 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-10 17:25:58.201  INFO 41357 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-10 17:25:58.484  INFO 41357 --- [main] com.sincere.Demo.ApplicationTests        : Started ApplicationTests in 5.11 seconds (JVM running for 6.37)
+2019-11-10 17:25:58.651  INFO 41357 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@2b46a8c1: startup date [Sun Nov 10 17:25:54 EST 2019]; root of context hierarchy
+2019-11-10 17:25:58.655  INFO 41357 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-10 17:25:58.658  INFO 41357 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-11-10 17:25:58.664  INFO 41357 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-11-10 17:38:24.161  INFO 41374 --- [main] com.sincere.Demo.ApplicationTests        : Starting ApplicationTests on MacBook-Pro-3399.local with PID 41374 (started by binxu in /Users/binxu/Downloads/06Demo)
+2019-11-10 17:38:24.166  INFO 41374 --- [main] com.sincere.Demo.ApplicationTests        : The following profiles are active: dev
+2019-11-10 17:38:24.223  INFO 41374 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@30c0ccff: startup date [Sun Nov 10 17:38:24 EST 2019]; root of context hierarchy
+2019-11-10 17:38:25.718  INFO 41374 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2340077c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-10 17:38:25.966  INFO 41374 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-11-10 17:38:26.510  INFO 41374 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-11-10 17:38:26.563  INFO 41374 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-11-10 17:38:26.582  INFO 41374 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-10 17:38:26.692  INFO 41374 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2019-11-10 17:38:26.695  INFO 41374 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-11-10 17:38:26.761  INFO 41374 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-11-10 17:38:26.910  INFO 41374 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-10 17:38:27.467  INFO 41374 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-10 17:38:27.854  INFO 41374 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-10 17:38:28.108  INFO 41374 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@30c0ccff: startup date [Sun Nov 10 17:38:24 EST 2019]; root of context hierarchy
+2019-11-10 17:38:28.159  WARN 41374 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-10 17:38:28.204  INFO 41374 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.sincere.Demo.controller.UserController.login(javax.servlet.http.HttpServletRequest)
+2019-11-10 17:38:28.205  INFO 41374 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/signup],methods=[POST]}" onto public java.lang.String com.sincere.Demo.controller.UserController.signup(javax.servlet.http.HttpServletRequest)
+2019-11-10 17:38:28.207  INFO 41374 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-11-10 17:38:28.208  INFO 41374 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-11-10 17:38:28.235  INFO 41374 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-10 17:38:28.235  INFO 41374 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-10 17:38:28.355  INFO 41374 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-10 17:38:28.727  INFO 41374 --- [main] com.sincere.Demo.ApplicationTests        : Started ApplicationTests in 5.31 seconds (JVM running for 6.522)
+2019-11-10 17:38:28.896  INFO 41374 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@30c0ccff: startup date [Sun Nov 10 17:38:24 EST 2019]; root of context hierarchy
+2019-11-10 17:38:28.902  INFO 41374 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-10 17:38:28.903  INFO 41374 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-11-10 17:38:28.917  INFO 41374 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

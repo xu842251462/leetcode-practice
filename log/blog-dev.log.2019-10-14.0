@@ -1,0 +1,6 @@
+2019-10-14 09:15:02.040  WARN 87306 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=8h9m48s292ms).
+2019-10-14 13:22:33.582  WARN 87306 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=4h7m32s334ms).
+2019-10-14 19:53:16.636  WARN 87306 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=6h30m13s16ms).
+2019-10-14 21:08:59.575  WARN 87306 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=37m40s756ms).
+2019-10-14 22:43:49.094  WARN 87306 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h14m49s202ms).
+2019-10-14 23:39:27.008  WARN 87306 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=29m54s543ms).

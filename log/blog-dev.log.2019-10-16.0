@@ -1,0 +1,10 @@
+2019-10-16 02:00:18.925  WARN 87306 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3h50m41s514ms).
+2019-10-16 05:42:49.979  WARN 87306 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3h42m31s54ms).
+2019-10-16 12:22:01.348  WARN 87306 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=5h29m41s8ms).
+2019-10-16 12:47:05.287  WARN 87306 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=8m3s883ms).
+2019-10-16 13:41:11.516  WARN 87306 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3m5s31ms).
+2019-10-16 13:56:11.255  WARN 87306 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Retrograde clock change detected (housekeeper delta=29s691ms), soft-evicting connections from pool.
+2019-10-16 16:34:01.157  WARN 87306 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h36m49s680ms).
+2019-10-16 16:40:00.952  WARN 87306 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Retrograde clock change detected (housekeeper delta=29s771ms), soft-evicting connections from pool.
+2019-10-16 19:41:42.002  WARN 87306 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h14m10s627ms).
+2019-10-16 22:54:33.849  WARN 87306 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3h10m51s847ms).
